@@ -6,35 +6,37 @@ Anggota:
 
 ## Narasi Soal
 
-<img src="https://lh5.googleusercontent.com/0IOaR7ZqbM_H8M800OlsO1WCFDM_xrhOcm5QMxacXDO6aJNIwZ9qhqixeiuxImnkNSCUZ7K6g-NS8p041lnuxwKK4UUHQQ_y9f2Yehwyh_S2TaY9qvUHbQv0ABazS5mJDA" width=600>
+![image](https://user-images.githubusercontent.com/87058985/204070973-b9b54efe-6618-46fe-a7db-2a0fd119052c.png)
 
-1. Soal *shift* dikerjakan pada **Cisco Packet Tracer** dan **GNS3** menggunakan metode perhitungan **CLASSLESS** yang berbeda.  
-   Keterangan: Bila di **CPT** menggunakan **VLSM**, maka di **GNS3** menggunakan **CIDR** atau sebaliknya.
+
+1. Soal shift dikerjakan pada Cisco Packet Tracer dan GNS3 menggunakan metode perhitungan CLASSLESS yang berbeda. Keterangan: Bila di CPT menggunakan VLSM, maka di GNS3 menggunakan CIDR atau Sebaliknya
     
-2. Jika tidak ada pemberitahuan revisi soal dari asisten, berarti semua soal **BERSIFAT BENAR** dan **DAPAT DIKERJAKAN**.
+2. Jika tidak ada pemberitahuan revisi soal dari asisten, berarti semua soal BERSIFAT BENAR dan DAPAT DIKERJAKAN.
     
-3. Untuk di GNS3, **CLOUD** merupakan **NAT1** jadi jangan sampai salah agar bisa terkoneksi internet.
+3. Untuk di GNS3 CLOUD merupakan NAT1 jangan sampai salah agar bisa terkoneksi internet.
     
-4. Pembagian IP menggunakan *prefix* IP yang telah ditentukan pada modul pengenalan.
+4. Pembagian IP menggunakan Prefix IP yang telah ditentukan pada modul pengenalan
     
-5. Pembagian IP dan routing harus **SEEFISIEN MUNGKIN**.
+5. Pembagian IP dan routing harus SE-EFISIEN MUNGKIN.
     
-6. Pastikan semua *node* pada GNS3 dapat melakukan ping ke [its.ac.id](https://its.ac.id/).
+6. Gambar topologi yang lebih jelas dapat diakses pada link berikut https://intip.in/6MGm
 
 ## Jawaban
 
 ## VLSM (*Variable Length Subnet Masking*)
    - Pembagian *subnet* (*subnetting*) terhadap topologi
    
-     <img src="https://user-images.githubusercontent.com/37539546/143672703-dbf1b3bb-e751-4f41-9968-23b8c2f0fe2e.jpg" width=600>
-     
-   - Penentuan jumlah alamat IP yang dibutuhkan tiap *subnet* dan ***labelling netmask*** berdasarkan jumlah IP. Berdasarkan hasil perhitungan, maka menggunakan *length* **/19** untuk *netmask*-nya.
+   ![image](https://user-images.githubusercontent.com/87058985/204071065-9f3c9b1b-6d61-4cd2-826e-70dc00e2e4d1.png)
 
-     <img src="https://user-images.githubusercontent.com/37539546/143673581-c3b71258-157c-497f-9240-83a9872f2b0b.JPG" width=400>
+   - Penentuan jumlah alamat IP yang dibutuhkan tiap *subnet* dan ***labelling netmask*** berdasarkan jumlah IP. Berdasarkan hasil perhitungan, maka menggunakan *length* **/20** untuk *netmask*-nya.
+
+     ![image](https://user-images.githubusercontent.com/87058985/204071210-a409f091-a9a1-494e-bdbf-93a12fa0a399.png)
+     ![image](https://user-images.githubusercontent.com/87058985/204071230-eb950c2a-e85e-40b9-9082-feec7582c3e3.png)
+
      
    - Pembuatan ***tree subnet*** untuk nantinya membagi IP berdasarkan **NID** dan ***netmask***-nya.
 
-     <img src="https://user-images.githubusercontent.com/37539546/143674197-342c0c60-1672-4f81-b63f-11221ed02bce.jpg" width=600>
+    ![image](https://user-images.githubusercontent.com/87058985/204071248-fbf0c98a-4fe0-4368-a09c-6b756660fa16.png)
      
    - Pembagian IP dan *netmask* dengan tabel berdasarkan ***tree subnet*** yang sudah dibuat.
 
