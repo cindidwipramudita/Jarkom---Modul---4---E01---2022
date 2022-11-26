@@ -36,7 +36,7 @@ Anggota:
      
    - Pembuatan ***tree subnet*** untuk nantinya membagi IP berdasarkan **NID** dan ***netmask***-nya.
 
-![image](https://user-images.githubusercontent.com/87058985/204075543-6067cd8b-ecc7-4200-91b2-3d90071321a6.png)
+![image](https://user-images.githubusercontent.com/87058985/204078465-58599bf7-65b9-4e00-ae90-3a053f7a23a4.png)
 
      
    - Pembagian IP dan *netmask* dengan tabel berdasarkan ***tree subnet*** yang sudah dibuat.
@@ -123,12 +123,155 @@ Anggota:
      - Atur IP pada *client* **Ashaf** yang mengarah ke **The Order** dengan `10.22.11.130` dan *subnet mask* `255.255.255.252`.
 
        ![image](https://user-images.githubusercontent.com/87058985/204078248-e239f2bb-4e32-4bdf-ac25-6e8319e24d97.png)
+      
+      ### A6
+     
+     - Atur IP pada *interface* **The Order** yang mengarah ke *client* **The Resonance** dengan `10.22.11.201` dan *subnet mask* `255.255.255.252`.
+     
+       ![image](https://user-images.githubusercontent.com/87058985/204078819-293cea55-7aae-4659-a140-40d81cba29cb.png)
+     
+     - Atur IP pada *client* **The Resonance** yang mengarah ke **The Order** dengan `10.22.11.202` dan *subnet mask* `255.255.255.252`.
 
-              
+       ![image](https://user-images.githubusercontent.com/87058985/204078834-7ac76897-a7ec-4c1a-9171-56e2c937b9cf.png)
+       
+      ### A7
+     
+     - Atur IP pada *interface* **The Instrument** yang mengarah ke *client* **Maatt Cugat** dengan `10.22.10.1` dan *subnet mask* `255.255.255.128`.
+     
+       ![image](https://user-images.githubusercontent.com/87058985/204078928-d4cdb975-7710-4f4a-9a90-97b269bee8bf.png)
+     
+     - Atur IP pada *client* **Maatt Cugat** yang mengarah ke **The Instrument** dengan `10.22.10.2` dan *subnet mask* `255.255.255.128`.
+
+       ![image](https://user-images.githubusercontent.com/87058985/204078963-8b38905f-4273-43f9-9bcc-17061c40ffb2.png)
+       
+      ### A8
+     
+     - Atur IP pada *interface* **The Firelist** yang mengarah ke *client* **The Queen** dengan `10.22.9.1` dan *subnet mask* `255.255.255.0`.
+     
+       ![image](https://user-images.githubusercontent.com/87058985/204079088-3cb02d05-6bc3-41ad-ae81-bc32e8441162.png)
+
+     - Atur IP pada *client* **The Queen** yang mengarah ke **Keith** dengan `10.22.9.2` dan *subnet mask* `255.255.255.0`.
+
+       ![image](https://user-images.githubusercontent.com/87058985/204079158-3ddb57bb-0bb2-48e5-b872-370d2885cef1.png)
+       
+     - Atur IP pada *client* **Keith** yang mengarah ke **The Firelist** dengan `10.22.9.3` dan *subnet mask* `255.255.255.0`.
+
+       ![image](https://user-images.githubusercontent.com/87058985/204079233-df79e3b1-c73f-4eda-8b2d-50559ad066c2.png)
+       
+     ### A9
+     
+     - Atur IP pada *interface* **The Queen** yang mengarah ke *client* **The Witch** dengan `10.22.11.205` dan *subnet mask* `255.255.255.25`.
+     
+       ![image](https://user-images.githubusercontent.com/87058985/204079451-513fbc2e-bf21-4abf-acd2-1e6ded357a21.png)
+     
+     - Atur IP pada *client* **The Witch** yang mengarah ke **The Queen** dengan `10.22.11.206` dan *subnet mask* `255.255.255.252`.
+
+       ![image](https://user-images.githubusercontent.com/87058985/204079463-9f18dff6-1953-4f05-aebb-2981d78a0050.png)
+       
+     ### A10
+     
+     - Atur IP pada *interface* **The Firelist** yang mengarah ke *client* **Oakleave** dengan `10.22.4.1` dan *subnet mask* `255.255.254.0`.
+     
+      ![image](https://user-images.githubusercontent.com/87058985/204079525-bd4e1480-1948-47b9-a0c5-9155e807528a.png)
+     
+     - Atur IP pada *client* **Oakleave** yang mengarah ke **The Firelist** dengan `10.22.4.2` dan *subnet mask* `255.255.254.0`.
+
+       ![image](https://user-images.githubusercontent.com/87058985/204079542-2a78ada9-313a-4032-8ac8-6f3f422de16a.png)
+       
+       
+     ### A11
+     
+     - Atur IP pada *interface* **The Instrument** yang mengarah ke *client* **The Firelist** dengan `10.22.11.209` dan *subnet mask* `255.255.255.25`.
+     
+       ![image](https://user-images.githubusercontent.com/87058985/204079589-03a9ec51-00fb-47bf-a74b-bbfde783b0eb.png)
+     
+     - Atur IP pada *client* **The Firelist** yang mengarah ke **The Instrument** dengan `10.22.11.210` dan *subnet mask* `255.255.255.25`.
+
+       ![image](https://user-images.githubusercontent.com/87058985/204079606-aa99c2d2-5df1-4e66-9520-0283f840e68e.png)
+       
+       
+     ### A12
+     
+     - Atur IP pada *interface* **The Resonance** yang mengarah ke *client* **The Instrument** dengan `10.22.11.213` dan *subnet mask* `255.255.255.252`.
+     
+       ![image](https://user-images.githubusercontent.com/87058985/204079672-e173f821-56ce-4d43-98db-a10755066148.png)
+     
+     - Atur IP pada *client* **The Instrument** yang mengarah ke **The Resonance** dengan `10.22.11.214` dan *subnet mask* `255.255.255.252`.
+
+      ![image](https://user-images.githubusercontent.com/87058985/204079684-d6c0f5bd-1c86-4067-b4d6-3b694ff202b1.png)
+       
+       
+     ### A13
+     
+     - Atur IP pada *interface* **The Order** yang mengarah ke *client* **Ashaf** dengan `10.22.11.129` dan *subnet mask* `255.255.255.25`.
+     
+       ![image](https://user-images.githubusercontent.com/87058985/204078227-94c66e14-b5b2-4149-8e90-68565783c074.png)
+     
+     - Atur IP pada *client* **Ashaf** yang mengarah ke **The Order** dengan `10.22.11.130` dan *subnet mask* `255.255.255.252`.
+
+       ![image](https://user-images.githubusercontent.com/87058985/204078248-e239f2bb-4e32-4bdf-ac25-6e8319e24d97.png)
+       
+       
+     ### A14
+     
+     - Atur IP pada *interface* **The Order** yang mengarah ke *client* **Ashaf** dengan `10.22.11.129` dan *subnet mask* `255.255.255.25`.
+     
+       ![image](https://user-images.githubusercontent.com/87058985/204078227-94c66e14-b5b2-4149-8e90-68565783c074.png)
+     
+     - Atur IP pada *client* **Ashaf** yang mengarah ke **The Order** dengan `10.22.11.130` dan *subnet mask* `255.255.255.252`.
+
+       ![image](https://user-images.githubusercontent.com/87058985/204078248-e239f2bb-4e32-4bdf-ac25-6e8319e24d97.png)
+       
+         
+     ### A15
+     
+     - Atur IP pada *interface* **The Order** yang mengarah ke *client* **Ashaf** dengan `10.22.11.129` dan *subnet mask* `255.255.255.25`.
+     
+       ![image](https://user-images.githubusercontent.com/87058985/204078227-94c66e14-b5b2-4149-8e90-68565783c074.png)
+     
+     - Atur IP pada *client* **Ashaf** yang mengarah ke **The Order** dengan `10.22.11.130` dan *subnet mask* `255.255.255.252`.
+
+       ![image](https://user-images.githubusercontent.com/87058985/204078248-e239f2bb-4e32-4bdf-ac25-6e8319e24d97.png)
+       
+      ### A16
+     
+     - Atur IP pada *interface* **The Order** yang mengarah ke *client* **Ashaf** dengan `10.22.11.129` dan *subnet mask* `255.255.255.25`.
+     
+       ![image](https://user-images.githubusercontent.com/87058985/204078227-94c66e14-b5b2-4149-8e90-68565783c074.png)
+     
+     - Atur IP pada *client* **Ashaf** yang mengarah ke **The Order** dengan `10.22.11.130` dan *subnet mask* `255.255.255.252`.
+
+       ![image](https://user-images.githubusercontent.com/87058985/204078248-e239f2bb-4e32-4bdf-ac25-6e8319e24d97.png)
+       
+     - Atur IP pada *client* **Ashaf** yang mengarah ke **The Order** dengan `10.22.11.130` dan *subnet mask* `255.255.255.252`.
+
+       ![image](https://user-images.githubusercontent.com/87058985/204078248-e239f2bb-4e32-4bdf-ac25-6e8319e24d97.png)
+        
+     ### A17
+     
+     - Atur IP pada *interface* **The Order** yang mengarah ke *client* **Ashaf** dengan `10.22.11.129` dan *subnet mask* `255.255.255.25`.
+     
+       ![image](https://user-images.githubusercontent.com/87058985/204078227-94c66e14-b5b2-4149-8e90-68565783c074.png)
+     
+     - Atur IP pada *client* **Ashaf** yang mengarah ke **The Order** dengan `10.22.11.130` dan *subnet mask* `255.255.255.252`.
+
+       ![image](https://user-images.githubusercontent.com/87058985/204078248-e239f2bb-4e32-4bdf-ac25-6e8319e24d97.png)
+   
+          
+     ### A18
+     
+     - Atur IP pada *interface* **The Order** yang mengarah ke *client* **Ashaf** dengan `10.22.11.129` dan *subnet mask* `255.255.255.25`.
+     
+       ![image](https://user-images.githubusercontent.com/87058985/204078227-94c66e14-b5b2-4149-8e90-68565783c074.png)
+     
+     - Atur IP pada *client* **Ashaf** yang mengarah ke **The Order** dengan `10.22.11.130` dan *subnet mask* `255.255.255.252`.
+
+       ![image](https://user-images.githubusercontent.com/87058985/204078248-e239f2bb-4e32-4bdf-ac25-6e8319e24d97.png)
+       
+       
      ## Hasil
 
-     <img src="https://user-images.githubusercontent.com/37539546/143685713-49463581-e81c-475f-8f7b-19a229a99fba.JPG" width="600">
-
+     ![image](https://user-images.githubusercontent.com/87058985/204078356-65397cb7-dc11-48c7-a505-c42dff76bf8e.png)
 ## Kendala
 - CPT agak kurang responsif/konsisten sehingga butuh beberapa kali pengiriman untuk mendapatkan pesan *success*.
 - Beberapa *node* pada GNS3 masih belum bisa melakukan *ping* sehingga pengerjaan GNS3 untuk CIDR tidak selesai.
