@@ -36,46 +36,31 @@ Anggota:
      
    - Pembuatan ***tree subnet*** untuk nantinya membagi IP berdasarkan **NID** dan ***netmask***-nya.
 
-    ![image](https://user-images.githubusercontent.com/87058985/204075290-25dab5f7-a416-4feb-991a-31edf37495ab.png)
+![image](https://user-images.githubusercontent.com/87058985/204075543-6067cd8b-ecc7-4200-91b2-3d90071321a6.png)
+
      
    - Pembagian IP dan *netmask* dengan tabel berdasarkan ***tree subnet*** yang sudah dibuat.
+  
+![image](https://user-images.githubusercontent.com/87058985/204075566-9b1c692e-3de6-49e1-acda-88153157305e.png)
 
-    ![image](https://user-images.githubusercontent.com/87058985/204075381-3076303d-0119-4b80-bfaf-4c7fd6b3d4ee.png)
-    ![image](https://user-images.githubusercontent.com/87058985/204075392-d410bb3c-3f15-4460-b65c-027e244804b3.png)
-    ![image](https://user-images.githubusercontent.com/87058985/204075404-aa7c8c2c-31bb-4e4e-b68f-9e0f4746593f.png)
-    ![image](https://user-images.githubusercontent.com/87058985/204075418-a26a3f90-5394-4476-8212-1661c9ad60b9.png)
+![image](https://user-images.githubusercontent.com/87058985/204075583-37a7eeac-6f15-4c48-a8fb-c7a8417e28b9.png)
 
+![image](https://user-images.githubusercontent.com/87058985/204075599-c294976b-9b76-4bb4-a372-f90f3caa03cf.png)
+
+![image](https://user-images.githubusercontent.com/87058985/204075611-35c68ac8-edd7-43e3-8d83-8f763b651df5.png)
 
 
 ## CIDR (*Classless Inter Domain Routing*)
    - Pembagian *subnet* (*subnetting*) terhadap topologi
  
-     <img src="https://user-images.githubusercontent.com/37539546/143672768-fb805831-4b2d-4d52-9e17-f7b4471d7eb6.jpg" width=600>
+ ![image](https://user-images.githubusercontent.com/87058985/204075757-902ef881-c291-4454-b712-44e6428c2217.png)
 
    - Penggabungan *subnet* paling bawah dalam topologi. Paling bawah di sini berarti paling jauh dari **internet** (*cloud*). Sebagai contoh di bawah **A7 dan A3** digabungkan menjadi **B1**, **A8 dan A1** digabungkan menjadi **B2**, **A6 dan A9** digabungkan menjadi **B3**. *Subnet* yang digabung tersebut akan membentuk sebuah *subnet* lebih besar dari *subnet*-*subnet* kecil yang ada di dalamnya. Penggabungan dilakukan terus sampai mencakup 1 topologi yang dimiliki.
    - Untuk penentuan *netmask* per *subnet*, didapat dari *netmask* yang 1 tingkat di atas *subnet* **terbesar** yang digabungkan. Sebagai contoh **A8 dan A1** jika digabung, *netmask* terbesarnya adalah **/21**, maka *netmask* untuk *subnet* **B2** adalah **/20** karena setingkat di atasnya.
    
-     <img src="https://user-images.githubusercontent.com/37539546/143674871-b4465431-406f-4736-b1f4-20c3633906aa.jpg" width=600>
-     
-     <img src="https://user-images.githubusercontent.com/37539546/143674897-b0859820-a632-451b-9289-c37b8bf9c73b.jpg" width=600>
-     
-     <img src="https://user-images.githubusercontent.com/37539546/143674900-a0d88644-a3f8-480c-87b4-8414e273c8bd.jpg" width=600>
-     
-     <img src="https://user-images.githubusercontent.com/37539546/143674903-05c738e9-d1cf-40ee-9409-2c8eaf3b5003.jpg" width=600>
-     
-     <img src="https://user-images.githubusercontent.com/37539546/143674904-7deac825-a224-4a75-8a5f-5fb61c71e08d.jpg" width=600>
-     
-     <img src="https://user-images.githubusercontent.com/37539546/143674906-f40dddb9-fb1c-44af-a0a8-56bafc2b839d.jpg" width=600>
-     
-     <img src="https://user-images.githubusercontent.com/37539546/143674908-d65b21e7-53b2-4eef-b61b-ade55721a5fe.jpg" width=600>
-     
-   - Pembuatan ***tree subnet*** untuk nantinya membagi IP berdasarkan **NID** dan ***netmask***-nya.
+   ![image](https://user-images.githubusercontent.com/87058985/204075769-3cfaea30-cead-43fb-b204-198359f519ce.png)
 
-     <img src="https://user-images.githubusercontent.com/37539546/143685152-1c2369c4-1423-4e3e-b5eb-d2103fae9f2c.jpg" width=600>
-
-   - Pembagian IP dan *netmask* dengan tabel berdasarkan ***tree subnet*** yang sudah dibuat.
-
-     <img src="https://user-images.githubusercontent.com/37539546/144907239-6908da63-c43f-4edf-9a81-d0667a757dfc.png" width=550>
+ 
 
 ## VLSM dengan CPT (Cisco Packet Tracer)
 
