@@ -55,7 +55,7 @@ Anggota:
  
  ![image](https://user-images.githubusercontent.com/87058985/204075757-902ef881-c291-4454-b712-44e6428c2217.png)
    
-   ![image](https://user-images.githubusercontent.com/87058985/204075769-3cfaea30-cead-43fb-b204-198359f519ce.png)
+   ![image](https://user-images.githubusercontent.com/87058985/204095717-5624d60a-2bea-447c-aa70-3069ba81ca48.png)
 
  
 
