@@ -36,11 +36,16 @@ Anggota:
      
    - Pembuatan ***tree subnet*** untuk nantinya membagi IP berdasarkan **NID** dan ***netmask***-nya.
 
-    ![image](https://user-images.githubusercontent.com/87058985/204071248-fbf0c98a-4fe0-4368-a09c-6b756660fa16.png)
+    ![image](https://user-images.githubusercontent.com/87058985/204075290-25dab5f7-a416-4feb-991a-31edf37495ab.png)
      
    - Pembagian IP dan *netmask* dengan tabel berdasarkan ***tree subnet*** yang sudah dibuat.
 
-     <img src="https://user-images.githubusercontent.com/37539546/144907142-dd8fc70e-1893-4a90-b90b-f34f362b4750.png" width=550>
+    ![image](https://user-images.githubusercontent.com/87058985/204075381-3076303d-0119-4b80-bfaf-4c7fd6b3d4ee.png)
+    ![image](https://user-images.githubusercontent.com/87058985/204075392-d410bb3c-3f15-4460-b65c-027e244804b3.png)
+    ![image](https://user-images.githubusercontent.com/87058985/204075404-aa7c8c2c-31bb-4e4e-b68f-9e0f4746593f.png)
+    ![image](https://user-images.githubusercontent.com/87058985/204075418-a26a3f90-5394-4476-8212-1661c9ad60b9.png)
+
+
 
 ## CIDR (*Classless Inter Domain Routing*)
    - Pembagian *subnet* (*subnetting*) terhadap topologi
