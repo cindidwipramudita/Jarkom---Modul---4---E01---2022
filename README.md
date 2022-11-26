@@ -1,4 +1,4 @@
-# Jarkom Modul 4 A08 - 2021
+# Jarkom Modul 4 E01 - 2022
 
 Anggota:
 -   5025201002 - Tegar Ganang Satrio Priambodo
@@ -203,70 +203,70 @@ Anggota:
        
      ### A13
      
-     - Atur IP pada *interface* **The Order** yang mengarah ke *client* **Ashaf** dengan `10.22.11.129` dan *subnet mask* `255.255.255.25`.
+     - Atur IP pada *interface* **The Resonance** yang mengarah ke *client* **The Beast** dengan `10.22.11.217` dan *subnet mask* `255.255.255.252`.
      
-       ![image](https://user-images.githubusercontent.com/87058985/204078227-94c66e14-b5b2-4149-8e90-68565783c074.png)
+       ![image](https://user-images.githubusercontent.com/87058985/204079840-2264e052-04de-49df-8428-044e584d052b.png)
      
-     - Atur IP pada *client* **Ashaf** yang mengarah ke **The Order** dengan `10.22.11.130` dan *subnet mask* `255.255.255.252`.
+     - Atur IP pada *client* **The Beast** yang mengarah ke **The Resonance** dengan `10.22.11.218` dan *subnet mask* `255.255.255.252`.
 
-       ![image](https://user-images.githubusercontent.com/87058985/204078248-e239f2bb-4e32-4bdf-ac25-6e8319e24d97.png)
+       ![image](https://user-images.githubusercontent.com/87058985/204079865-c4460a3e-a134-4561-8557-c6e7575e0cbc.png)
        
        
      ### A14
      
-     - Atur IP pada *interface* **The Order** yang mengarah ke *client* **Ashaf** dengan `10.22.11.129` dan *subnet mask* `255.255.255.25`.
+     - Atur IP pada *interface* **The Resonance** yang mengarah ke *client* **The Magical** dengan `10.22.11.221` dan *subnet mask* `255.255.255.252`.
      
-       ![image](https://user-images.githubusercontent.com/87058985/204078227-94c66e14-b5b2-4149-8e90-68565783c074.png)
+       ![image](https://user-images.githubusercontent.com/87058985/204079958-9a7b2288-73fd-49c0-928e-f265dd60afbb.png)
      
-     - Atur IP pada *client* **Ashaf** yang mengarah ke **The Order** dengan `10.22.11.130` dan *subnet mask* `255.255.255.252`.
+     - Atur IP pada *client* **The Magical** yang mengarah ke **The Resonance** dengan `10.22.11.222` dan *subnet mask* `255.255.255.252`.
 
-       ![image](https://user-images.githubusercontent.com/87058985/204078248-e239f2bb-4e32-4bdf-ac25-6e8319e24d97.png)
+       ![image](https://user-images.githubusercontent.com/87058985/204079990-33d30bbb-3e32-4e53-bbca-1d06917b40d2.png)
        
          
      ### A15
      
-     - Atur IP pada *interface* **The Order** yang mengarah ke *client* **Ashaf** dengan `10.22.11.129` dan *subnet mask* `255.255.255.25`.
+     - Atur IP pada *interface* **The Instrument** yang mengarah ke *client* **The Profound** dengan `10.22.11.225` dan *subnet mask* `255.255.255.252`.
      
-       ![image](https://user-images.githubusercontent.com/87058985/204078227-94c66e14-b5b2-4149-8e90-68565783c074.png)
+       ![image](https://user-images.githubusercontent.com/87058985/204080154-f8ee871d-ea13-436c-b808-bd289145d8a2.png)
      
-     - Atur IP pada *client* **Ashaf** yang mengarah ke **The Order** dengan `10.22.11.130` dan *subnet mask* `255.255.255.252`.
+     - Atur IP pada *client* **The Profound** yang mengarah ke **The Instrument** dengan `10.22.11.226` dan *subnet mask* `255.255.255.252`.
 
-       ![image](https://user-images.githubusercontent.com/87058985/204078248-e239f2bb-4e32-4bdf-ac25-6e8319e24d97.png)
+       ![image](https://user-images.githubusercontent.com/87058985/204080182-bde2d3a0-b908-41ec-8de7-d5d71eb73fa1.png)
        
       ### A16
      
-     - Atur IP pada *interface* **The Order** yang mengarah ke *client* **Ashaf** dengan `10.22.11.129` dan *subnet mask* `255.255.255.25`.
+     - Atur IP pada *interface* **The Magical** yang mengarah ke *client* **Corvekt** dengan `10.22.6.1` dan *subnet mask* `255.255.254.0`.
      
-       ![image](https://user-images.githubusercontent.com/87058985/204078227-94c66e14-b5b2-4149-8e90-68565783c074.png)
+       ![image](https://user-images.githubusercontent.com/87058985/204080345-42b2f147-2af2-4ed9-9449-f09ffd1b8f80.png)
      
-     - Atur IP pada *client* **Ashaf** yang mengarah ke **The Order** dengan `10.22.11.130` dan *subnet mask* `255.255.255.252`.
+     - Atur IP pada *client* **Corvekt** yang mengarah ke **Haines** dengan `10.22.6.2` dan *subnet mask* `255.255.254.0`.
 
-       ![image](https://user-images.githubusercontent.com/87058985/204078248-e239f2bb-4e32-4bdf-ac25-6e8319e24d97.png)
+       ![image](https://user-images.githubusercontent.com/87058985/204080364-6803fb27-b035-48f1-ada1-11c380419e68.png)
        
-     - Atur IP pada *client* **Ashaf** yang mengarah ke **The Order** dengan `10.22.11.130` dan *subnet mask* `255.255.255.252`.
+     - Atur IP pada *client* **Haines** yang mengarah ke **The Magical** dengan `10.22.6.3` dan *subnet mask* `255.255.254.0`.
 
-       ![image](https://user-images.githubusercontent.com/87058985/204078248-e239f2bb-4e32-4bdf-ac25-6e8319e24d97.png)
+      ![image](https://user-images.githubusercontent.com/87058985/204080355-28526f56-d62b-4228-98b2-c7306e8d6ac1.png)
         
      ### A17
      
-     - Atur IP pada *interface* **The Order** yang mengarah ke *client* **Ashaf** dengan `10.22.11.129` dan *subnet mask* `255.255.255.25`.
+     - Atur IP pada *interface* **The Profound** yang mengarah ke *client* **Helga** dengan `10.22.11.1` dan *subnet mask* `255.255.255.128`.
      
-       ![image](https://user-images.githubusercontent.com/87058985/204078227-94c66e14-b5b2-4149-8e90-68565783c074.png)
+       ![image](https://user-images.githubusercontent.com/87058985/204080424-d85ae973-b288-46f6-a9a9-c2c7038d4883.png)
      
-     - Atur IP pada *client* **Ashaf** yang mengarah ke **The Order** dengan `10.22.11.130` dan *subnet mask* `255.255.255.252`.
+     - Atur IP pada *client* **Helga** yang mengarah ke **The Profound** dengan `10.22.11.2` dan *subnet mask* `255.255.255.128`.
 
-       ![image](https://user-images.githubusercontent.com/87058985/204078248-e239f2bb-4e32-4bdf-ac25-6e8319e24d97.png)
+       ![image](https://user-images.githubusercontent.com/87058985/204080432-bfa9ff95-1874-4af4-b9cd-aaafec64458f.png)
    
           
      ### A18
      
-     - Atur IP pada *interface* **The Order** yang mengarah ke *client* **Ashaf** dengan `10.22.11.129` dan *subnet mask* `255.255.255.25`.
+     - Atur IP pada *interface* **The Profound** yang mengarah ke *client* **Spendrow** dengan `10.22.10.129` dan *subnet mask* `255.255.255.128`.
      
-       ![image](https://user-images.githubusercontent.com/87058985/204078227-94c66e14-b5b2-4149-8e90-68565783c074.png)
+       ![image](https://user-images.githubusercontent.com/87058985/204080507-bfa148ef-4f7c-44fc-86f9-432baae92b07.png)
      
-     - Atur IP pada *client* **Ashaf** yang mengarah ke **The Order** dengan `10.22.11.130` dan *subnet mask* `255.255.255.252`.
+     - Atur IP pada *client* **Spendrow** yang mengarah ke **The Profound** dengan `10.22.10.130` dan *subnet mask* `255.255.255.128`.
 
-       ![image](https://user-images.githubusercontent.com/87058985/204078248-e239f2bb-4e32-4bdf-ac25-6e8319e24d97.png)
+       ![image](https://user-images.githubusercontent.com/87058985/204080529-39c50d2c-cf97-418b-bd00-eb1c5d3a8551.png)
        
        
      ## Hasil
