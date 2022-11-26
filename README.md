@@ -76,6 +76,11 @@ Anggota:
      - Atur IP pada *client* **Guideau** yang mengarah ke **The Minister** dengan `10.22.0.2` dan *subnet mask* `255.255.252.0`.
 
        ![image](https://user-images.githubusercontent.com/87058985/204077291-6e7e277a-05cc-4d43-8898-f9688ca139dc.png)
+     
+     - Routing **The Minister**
+        
+       ![image](https://user-images.githubusercontent.com/87058985/204088020-640a7974-0a94-4854-86be-77f32c84b35e.png)
+
        
      ### A2
      
@@ -91,6 +96,11 @@ Anggota:
 
       ![image](https://user-images.githubusercontent.com/87058985/204077700-a076bd08-7ec9-4866-9017-7de5265e5d69.png)
       
+     - Routing **The Dauntless**
+       
+       ![image](https://user-images.githubusercontent.com/87058985/204088070-ecae4511-7f0a-4312-8a51-5d4b81af16d0.png)
+
+      
       ### A3
      
      - Atur IP pada *interface* **The Minister** yang mengarah ke *client* **The Dauntless** dengan `10.22.11.193` dan *subnet mask* `255.255.255.25`.
@@ -100,6 +110,14 @@ Anggota:
      - Atur IP pada *client* **The Dauntless** yang mengarah ke **The Minister** dengan `10.22.11.194` dan *subnet mask* `255.255.255.252`.
 
        ![image](https://user-images.githubusercontent.com/87058985/204077970-df0de6a0-58db-402a-9a5c-a9a94b84e3df.png)
+       
+      - Routing **The Minister**
+        
+       ![image](https://user-images.githubusercontent.com/87058985/204088020-640a7974-0a94-4854-86be-77f32c84b35e.png)
+       
+      - Routing **The Dauntless**
+       
+       ![image](https://user-images.githubusercontent.com/87058985/204088070-ecae4511-7f0a-4312-8a51-5d4b81af16d0.png)
        
       ### A4
      
@@ -111,6 +129,10 @@ Anggota:
 
        ![image](https://user-images.githubusercontent.com/87058985/204078110-5b6dcad1-c4bd-4c33-8568-a31bfe3645bc.png)
        
+     - Routing **The Minister**
+        
+       ![image](https://user-images.githubusercontent.com/87058985/204088020-640a7974-0a94-4854-86be-77f32c84b35e.png)
+       
       ### A5
      
      - Atur IP pada *interface* **The Order** yang mengarah ke *client* **Ashaf** dengan `10.22.11.129` dan *subnet mask* `255.255.255.25`.
@@ -120,6 +142,11 @@ Anggota:
      - Atur IP pada *client* **Ashaf** yang mengarah ke **The Order** dengan `10.22.11.130` dan *subnet mask* `255.255.255.252`.
 
        ![image](https://user-images.githubusercontent.com/87058985/204078248-e239f2bb-4e32-4bdf-ac25-6e8319e24d97.png)
+       
+     - Routing **The order**
+       
+       ![image](https://user-images.githubusercontent.com/87058985/204088111-c6c55854-bb7f-4bf1-8132-84668e817cd9.png)
+
       
       ### A6
      
@@ -131,6 +158,15 @@ Anggota:
 
        ![image](https://user-images.githubusercontent.com/87058985/204078834-7ac76897-a7ec-4c1a-9171-56e2c937b9cf.png)
        
+     - Routing **The order**
+       
+       ![image](https://user-images.githubusercontent.com/87058985/204088111-c6c55854-bb7f-4bf1-8132-84668e817cd9.png)
+       
+      - Routing **The Resonance**
+      
+        ![image](https://user-images.githubusercontent.com/87058985/204088161-6b06faf9-0eec-41dc-81c3-9e3f1298c5d1.png)
+
+       
       ### A7
      
      - Atur IP pada *interface* **The Instrument** yang mengarah ke *client* **Maatt Cugat** dengan `10.22.10.1` dan *subnet mask* `255.255.255.128`.
@@ -140,6 +176,10 @@ Anggota:
      - Atur IP pada *client* **Maatt Cugat** yang mengarah ke **The Instrument** dengan `10.22.10.2` dan *subnet mask* `255.255.255.128`.
 
        ![image](https://user-images.githubusercontent.com/87058985/204078963-8b38905f-4273-43f9-9bcc-17061c40ffb2.png)
+       
+     - Routing **The Instrument**
+    
+      ![image](https://user-images.githubusercontent.com/87058985/204088255-df9ab905-95ec-457d-9845-0a59862ca5f1.png)  
        
       ### A8
      
@@ -155,6 +195,14 @@ Anggota:
 
        ![image](https://user-images.githubusercontent.com/87058985/204079233-df79e3b1-c73f-4eda-8b2d-50559ad066c2.png)
        
+     - Routing **The Firelist**
+    
+      ![image](https://user-images.githubusercontent.com/87058985/204088344-0603481b-e18a-4775-90fe-dab75f949952.png)
+      
+     - Routing **The Queen**
+    
+      ![image](https://user-images.githubusercontent.com/87058985/204088357-f12f80f2-9d01-4340-9824-0c615f835215.png)
+       
      ### A9
      
      - Atur IP pada *interface* **The Queen** yang mengarah ke *client* **The Witch** dengan `10.22.11.205` dan *subnet mask* `255.255.255.25`.
@@ -164,6 +212,12 @@ Anggota:
      - Atur IP pada *client* **The Witch** yang mengarah ke **The Queen** dengan `10.22.11.206` dan *subnet mask* `255.255.255.252`.
 
        ![image](https://user-images.githubusercontent.com/87058985/204079463-9f18dff6-1953-4f05-aebb-2981d78a0050.png)
+       
+     - Routing **The Queen**
+    
+      ![image](https://user-images.githubusercontent.com/87058985/204088357-f12f80f2-9d01-4340-9824-0c615f835215.png)
+       
+       
        
      ### A10
      
@@ -175,6 +229,10 @@ Anggota:
 
        ![image](https://user-images.githubusercontent.com/87058985/204079542-2a78ada9-313a-4032-8ac8-6f3f422de16a.png)
        
+     - Routing **The Firelist**
+    
+      ![image](https://user-images.githubusercontent.com/87058985/204088344-0603481b-e18a-4775-90fe-dab75f949952.png)
+      
        
      ### A11
      
@@ -185,6 +243,14 @@ Anggota:
      - Atur IP pada *client* **The Firelist** yang mengarah ke **The Instrument** dengan `10.22.11.210` dan *subnet mask* `255.255.255.25`.
 
        ![image](https://user-images.githubusercontent.com/87058985/204079606-aa99c2d2-5df1-4e66-9520-0283f840e68e.png)
+       
+     - Routing **The Firelist**
+    
+      ![image](https://user-images.githubusercontent.com/87058985/204088344-0603481b-e18a-4775-90fe-dab75f949952.png)
+      
+      - Routing **The Instrument**
+    
+      ![image](https://user-images.githubusercontent.com/87058985/204088255-df9ab905-95ec-457d-9845-0a59862ca5f1.png)  
        
        
      ### A12
@@ -197,6 +263,14 @@ Anggota:
 
       ![image](https://user-images.githubusercontent.com/87058985/204079684-d6c0f5bd-1c86-4067-b4d6-3b694ff202b1.png)
        
+     - Routing **The Instrument**
+    
+      ![image](https://user-images.githubusercontent.com/87058985/204088255-df9ab905-95ec-457d-9845-0a59862ca5f1.png)  
+       
+     - Routing **Resonance**
+    
+      ![image](https://user-images.githubusercontent.com/87058985/204088567-79568c18-57ea-4dcd-8615-df73b810cf83.png)
+
        
      ### A13
      
@@ -208,6 +282,11 @@ Anggota:
 
        ![image](https://user-images.githubusercontent.com/87058985/204079865-c4460a3e-a134-4561-8557-c6e7575e0cbc.png)
        
+     - Routing **The Resonance**
+    
+      ![image](https://user-images.githubusercontent.com/87058985/204088567-79568c18-57ea-4dcd-8615-df73b810cf83.png)
+       
+      
        
      ### A14
      
@@ -219,6 +298,14 @@ Anggota:
 
        ![image](https://user-images.githubusercontent.com/87058985/204079990-33d30bbb-3e32-4e53-bbca-1d06917b40d2.png)
        
+     - Routing **The Resonance**
+    
+      ![image](https://user-images.githubusercontent.com/87058985/204088567-79568c18-57ea-4dcd-8615-df73b810cf83.png)
+      
+     - Routing **The Magical**
+    
+      ![image](https://user-images.githubusercontent.com/87058985/204088674-6c82de3d-fc8d-4e23-ad70-6c5f1bfaaced.png)
+      
          
      ### A15
      
@@ -229,6 +316,15 @@ Anggota:
      - Atur IP pada *client* **The Profound** yang mengarah ke **The Instrument** dengan `10.22.11.226` dan *subnet mask* `255.255.255.252`.
 
        ![image](https://user-images.githubusercontent.com/87058985/204080182-bde2d3a0-b908-41ec-8de7-d5d71eb73fa1.png)
+       
+     - Routing **The Instrument**
+    
+      ![image](https://user-images.githubusercontent.com/87058985/204088255-df9ab905-95ec-457d-9845-0a59862ca5f1.png)  
+      
+     - Routing **The Profound**
+        
+      ![image](https://user-images.githubusercontent.com/87058985/204088746-aff574b0-a79c-4b6b-b11d-dbe47d980132.png)
+
        
       ### A16
      
@@ -243,6 +339,11 @@ Anggota:
      - Atur IP pada *client* **Haines** yang mengarah ke **The Magical** dengan `10.22.6.3` dan *subnet mask* `255.255.254.0`.
 
       ![image](https://user-images.githubusercontent.com/87058985/204080355-28526f56-d62b-4228-98b2-c7306e8d6ac1.png)
+      
+     - Routing **The Magical**
+    
+      ![image](https://user-images.githubusercontent.com/87058985/204088674-6c82de3d-fc8d-4e23-ad70-6c5f1bfaaced.png)
+      
         
      ### A17
      
@@ -253,6 +354,12 @@ Anggota:
      - Atur IP pada *client* **Helga** yang mengarah ke **The Profound** dengan `10.22.11.2` dan *subnet mask* `255.255.255.128`.
 
        ![image](https://user-images.githubusercontent.com/87058985/204080432-bfa9ff95-1874-4af4-b9cd-aaafec64458f.png)
+       
+     - Routing **The Profound**
+        
+      ![image](https://user-images.githubusercontent.com/87058985/204088746-aff574b0-a79c-4b6b-b11d-dbe47d980132.png)
+
+      
    
           
      ### A18
@@ -265,10 +372,21 @@ Anggota:
 
        ![image](https://user-images.githubusercontent.com/87058985/204080529-39c50d2c-cf97-418b-bd00-eb1c5d3a8551.png)
        
+     - Routing **The Profound**
+        
+      ![image](https://user-images.githubusercontent.com/87058985/204088746-aff574b0-a79c-4b6b-b11d-dbe47d980132.png)
+
+      
+       
        
      ## Hasil
 
-     ![image](https://user-images.githubusercontent.com/87058985/204078356-65397cb7-dc11-48c7-a505-c42dff76bf8e.png)
+     ![image](https://user-images.githubusercontent.com/87058985/204087625-838ec543-e0d2-4289-b8f0-0e36bb8a367a.png)
+
+     ![image](https://user-images.githubusercontent.com/87058985/204087687-4c274452-8c48-4e8a-8ddb-8c3aa72435df.png)
+
+
+     
 ## Kendala
 - CPT agak kurang responsif/konsisten sehingga butuh beberapa kali pengiriman untuk mendapatkan pesan *success*.
 - Beberapa *node* pada GNS3 masih belum bisa melakukan *ping* sehingga pengerjaan GNS3 untuk CIDR tidak selesai.
